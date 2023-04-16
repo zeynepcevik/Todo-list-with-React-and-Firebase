@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+.App {
+align-items: center;
+justify-content: center;
+}
+body {
+background-color: #7ecea0;
+font-family: "Poppins", sans-serif;
+}
+.title h1 {
+color: #0d6f39;
+text-align: center;
+margin: 30px 0;
+font-weight: 700;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+form {
+max-width: 500px;
+margin: 0 auto;
+background: #f9f7f7;
+padding: 10px 20px;
+margin-top: 50px;
+border-radius: 5px;
+box-shadow: 1px 2px 10px #ddd;
+}
+form h3 {
+text-align: center;
+margin-bottom: 20px;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+color: #374151;
+}
+form input {
+width: 100%;
+padding: 10px 5px;
+outline: none;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid #e5e7eb;
+border-radius: 5px;
+transition: border-color 0.2s ease-in-out;
+}
+form input:focus {
+border-color: #6b7280;
+}
+.input_container {
+margin-bottom: 20px;
+}
+.btn_container {
+text-align: center;
+margin-bottom: 10px;
+}
+.btn_container button {
+background: #6b7280;
+color: white;
+padding: 10px 20px;
+outline: none;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+font-weight: 500;
+transition: background-color 0.2s ease-in-out;
+}
+.btn_container button:hover {
+background-color: #4b5563;
+}
+.todo_container {
+width: 50%;
+margin: 0 auto;
+}
+.todo {
+margin-top: 20px;
+background: #f9f7f7;
+padding: 10px 20px;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 1px 2px 10px #ddd;
+transition: background-color 0.2s ease-in-out;
+}
+.todo:hover {
+background-color: #f3f4f6;
+}
+.todo input {
+cursor: pointer;
+width: 50%;
+border: none;
+outline: none;
+cursor: pointer;
+background-color: transparent;
+font-size: 24px;
+font-weight: 500;
+transition: text-decoration 0.2s ease-in-out;
+}
+.todo input.completed {
+text-decoration: line-through;
+color: #6b7280;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+border: none;
+outline: none;
+cursor: pointer;
+background-color: transparent;
+border-radius: 50%;
+transition: color 0.2s ease-in-out;
+}
+.button-complete:hover {
+color: #10b981;
+}
+.button-edit {
+  color: #56cfff;
+  margin-right: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.button-edit:hover {
+  color: #3498db;
+}
